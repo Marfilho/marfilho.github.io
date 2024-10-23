@@ -27,11 +27,15 @@
             var ano = ndata.getFullYear();
             var hora = ndata.getHours();
             var gmt = 3
-            var senha = ano-mes-dia-hora
+            var senhanova = ano-mes-dia-hora
+            var senha = ano-mes-dia-hora-senha
 
  document.getElementById("textArea").innerHTML = senha
  document.getElementById("btn1").innerHTML = senha
 
+
+ document.getElementById("textArea").innerHTML = senhanova
+ document.getElementById("btn1").innerHTML = senhanova
 function copyToClipBoard() {
     navigator.clipboard.writeText(senha);
     alert("Aí sim chefia, copiado!"); 
