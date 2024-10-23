@@ -18,6 +18,7 @@
     
     <div class="card-body">
         <textarea id="textArea" hidden > </textarea>
+        <textarea id="textAreaNova" hidden > </textarea>
         <a type="button" class="btn btn-primary btn-lg" onclick="copyToClipBoard()" id="btn1" > 
             <script> 
             
@@ -34,7 +35,7 @@
  document.getElementById("btn1").innerHTML = senha
 
 
- document.getElementById("textArea").innerHTML = senhanova
+ document.getElementById("textAreaNova").innerHTML = senhanova
  document.getElementById("btn1").innerHTML = senhanova
 function copyToClipBoard() {
     navigator.clipboard.writeText(senha);
